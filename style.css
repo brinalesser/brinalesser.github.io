@@ -14,8 +14,7 @@ each taking up 50% of the parent container's width. Make sure that this can
 scale with if the container changes size. */
 div {
   width: 50%;
-  display: table-cell;
-  border: 20px solid black;
+  border: 10px solid black;
 }
 
 /* The programming languages and the computer skills should have borders 
