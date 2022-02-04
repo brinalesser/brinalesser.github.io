@@ -11,10 +11,10 @@ containers that are side by side. */
 each taking up 50% of the parent container's width. Make sure that this can 
 scale with if the container changes size. */
 div {
-  box-sizing: border-box;
   float: left;
   width: 50%;
   border: 10px solid black;
+  box-sizing: border-box;
 }
 
 /* The programming languages and the computer skills should have borders 
