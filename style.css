@@ -36,6 +36,6 @@ computer skills colored a different color */
 
 /* The header for the Skills/Qualifications section should have a background 
 color */
-# skills-header {
+#skills-header {
   background-color: yellow;
 }
