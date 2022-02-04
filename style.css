@@ -3,7 +3,6 @@ and text size. These should be different from the default font and text size. */
 #skills {
   font-family: 'Lucida Sans Typewriter', monospace;
   font-size: 12;
-  color: blue;
 }
 
 /* The programming languages and the computer skills should both be bordered
@@ -13,6 +12,7 @@ each taking up 50% of the parent container's width. Make sure that this can
 scale with if the container changes size. */
 div {
   width: 50%;
+  float: left;
   padding: 20px;
   border: 20px solid black;
 }
