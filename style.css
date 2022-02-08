@@ -26,7 +26,7 @@ img {
   border-bottom:  5px solid blue;
   border-top:  5px solid blue;
   column-count: 3;
-  margin:  1%;
+  margin:  10%;
   padding:  1%;
 }
 
@@ -44,7 +44,3 @@ p {
 #name {
   font-style: normal;
 }
-
-
-
-
