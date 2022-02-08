@@ -1,1 +1,33 @@
+/* Default format */
+body {
+  background: #000;
+  color: #fff;
+  font-family: Geneva, Tahoma, Verdana, sans-serif;
+}
+
+/* Fixed banner at the top of the page */
+.banner {
+  background: #217083;
+  color: #fff;
+  padding: 5% 0 1%;
+  position: sticky;
+}
+
+/* Image styling */
+img {
+  height: 100px;
+  width: 100px;
+}
+
+/* Put contact info in a box */
+#contact-info {
+  border: 5px solid #350060;
+  border-bottom:  5px solid blue;
+  border-top:  5px solid blue;
+  column-count: 2;
+}
+
+
+
+
 
