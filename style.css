@@ -2,7 +2,7 @@
 body {
   background: #000;
   color: #fff;
-  padding: 20% 0 0 0;
+  padding: 10% 0 0 0;
 }
 
 /* Fixed banner at the top of the page */
@@ -11,7 +11,7 @@ body {
   color: #fff;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   top: 0;
-  padding: 5% 0 1% 1%;
+  padding: 3% 0 1% 1%;
   position:  fixed;
   width: 100%;
 }
