@@ -9,13 +9,9 @@ body {
 .banner {
   background: #217083;
   color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 5% 0 1%;
   position: sticky;
-}
-
-/* Name */
-#name {
-  font-style: normal;
 }
 
 /* Image styling */
@@ -24,18 +20,31 @@ img {
   width: 100px;
 }
 
-/* Put contact info in a box */
-#contact-info {
+/* Put contact info in a columned box */
+.contact {
   border: 5px solid #350060;
   border-bottom:  5px solid blue;
   border-top:  5px solid blue;
-  column-count: 2;
+  column-count: 3;
+  margin:  1%;
+  padding:  1%;
 }
 
-h2 {
+/* Underline section headers*/
+.section-header {
   text-decoration: underline;
 }
 
+/* Italisize paragraph content */
 p {
   font-style: italic;
 }
+
+/* Name not italicized */
+#name {
+  font-style: normal;
+}
+
+
+
+
