@@ -13,6 +13,11 @@ body {
   position: sticky;
 }
 
+/* Name */
+#name {
+  font-style: normal;
+}
+
 /* Image styling */
 img {
   height: 100px;
@@ -27,7 +32,10 @@ img {
   column-count: 2;
 }
 
+h2 {
+  text-decoration: underline;
+}
 
-
-
-
+p {
+  font-style: italic;
+}
