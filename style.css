@@ -1,48 +1,86 @@
 /* Default format */
 body {
-  background: #000;
-  color: #fff;
-  padding-top: 10%;
-}
-
-/* Fixed banner at the top of the page */
-.banner {
-  background: #217083;
-  color: #fff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  top: 0;
-  width: 100%;
-  position: fixed;
-  padding: 10% 0;
+  background: #000000; /*Black*/
+  color: #FFFFFF; /*White*/
+  font-family: Geneva, Tahoma, Verdana, sans-serif;
+  font-size: 2vw;
+  padding-top: 12vw;
+  top:  0;
 }
 
 /* Image styling */
 img {
-  height: 100px;
-  width: 100px;
+  display: block;
+  height: 20vw;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20vw;
 }
 
-/* Put contact info in a columned box */
-.contact {
-  border: 5px solid #350060;
-  border-bottom:  5px solid blue;
-  border-top:  5px solid blue;
-  column-count: 3;
-  margin:  10%;
+/* Navigation bar in banner*/
+nav{
+  background-color: #217083; /*Teal*/
+  display: flex;
+  justify-content: space-around;
+  padding: 1vw;
+}
+
+/* Navigation bar buttons */
+nav a {
+  background-color: #FFFFFF; /*White*/
+  color: #217083; /*Teal*/
+  font-weight: bold;
   padding:  1%;
+  text-decoration: none;
 }
 
-/* Underline section headers*/
-.section-header {
-  text-decoration: underline;
-}
-
-/* Italisize paragraph content */
+/* Italicize paragraph content */
 p {
   font-style: italic;
 }
 
-/* Name not italicized */
+/* Fixed banner at the top of the page */
+.banner {
+  background: #217083; /*Teal*/
+  color: #FFFFFF; /*White*/
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+  position:  fixed;
+  text-align: center;
+  top: 0;
+  width:  100%;
+}
+
+/* Put contact info in a columned box */
+.contact {
+  border-bottom:  5px solid #000099; /*Blue*/
+  border-left: 5px solid #350060; /*Purple*/
+  border-right: 5px solid #350060; /*Purple*/
+  border-top:  5px solid #000099; /*Blue*/
+  column-count: 3;
+  margin:  1%;
+  text-align: center;
+}
+
+/* Underline section headers*/
+.section-header {
+  text-align: left;
+  text-decoration: underline;
+}
+
+/* Center and underline contact info section header*/
+.contact-section-header {
+  column-span:  all;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* Make spacer invisible */
+.spacer {
+  color: #000000;
+}
+
+/* Un-italicize name */
 #name {
   font-style: normal;
+  text-align: center;
 }
