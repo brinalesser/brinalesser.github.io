@@ -8,16 +8,7 @@ body {
   top:  0;
 }
 
-/* Image styling */
-img {
-  display: block;
-  height: 20vw;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20vw;
-}
-
-/* Navigation bar in banner*/
+/* Navigation bar in banner with spaced out links*/
 nav{
   background-color: #217083; /*Teal*/
   display: flex;
@@ -25,13 +16,22 @@ nav{
   padding: 1vw;
 }
 
-/* Navigation bar buttons */
+/* Navigation bar link styling */
 nav a {
   background-color: #FFFFFF; /*White*/
   color: #217083; /*Teal*/
   font-weight: bold;
   padding:  1%;
   text-decoration: none;
+}
+
+/* Image styling */
+img {
+  display: block;
+  height: 20vw;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20vw;
 }
 
 /* Italicize paragraph content */
@@ -67,13 +67,6 @@ p {
   text-decoration: underline;
 }
 
-/* Center and underline contact info section header*/
-.contact-section-header {
-  column-span:  all;
-  text-align: center;
-  text-decoration: underline;
-}
-
 /* Make spacer invisible */
 .spacer {
   color: #000000;
@@ -82,5 +75,11 @@ p {
 /* Un-italicize name */
 #name {
   font-style: normal;
+  text-align: center;
+}
+
+/* Have the contact info header span all columns */
+#contact-header {
+  column-span: all;
   text-align: center;
 }
